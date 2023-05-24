@@ -20,10 +20,10 @@ const Slider = ({slides}) => {
     }
 
   return (
-    <div id='gallery' className='max-w-[1240px] mx-auto'>
+    <div id='gallery' className='max-w-[1240px] mx-auto py-12'>
         <h1 className='text-2xl font-bold text-center p-4'>Gallery</h1>
-        <div className='relative flex justify-center p-4'>
-        <div>
+        <div className='relative flex justify-center items-center p-4'>
+        <div className='max-w-[640px] max-h-[480px]'>
             {SliderData.map((slide, index) => {
                 return (
                     <div 
@@ -35,18 +35,19 @@ const Slider = ({slides}) => {
                             
                                 <FaArrowCircleLeft
                                  onClick={nextSlide}
-                                 className='absolute top-[50%] left-[30px] text-white/70 cursor-pointer select-none z-[2]' size={50}/>
+                                 className='absolute top-[50%] left-[300px] text-white/70 cursor-pointer select-none z-[2]' size={50}/>
                         {index === current && (
                             <Image src={slide.image} 
                             alt='/' 
-                            width={'1440'} 
-                            height={'600'} 
+                            width={'640'} 
+                            height={'480'} 
                             style={{objectFit:'cover'}}
+                            unoptimized={true}
                             />
                         )}
                         <FaArrowCircleRight
-                         onClick={prevSlide}
-                         className='absolute top-[50%] right-[30px] text-white/70 cursor-pointer select-none z-[2]' size={50}/>
+                         onClick={nextSlide}
+                         className='absolute top-[50%] right-[300px] text-white/70 cursor-pointer select-none z-[2]' size={50}/>
 
                     </div>
                 );

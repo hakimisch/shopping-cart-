@@ -1,8 +1,8 @@
 import Hero from "@/components/Hero";
+import Posts from "@/components/Posts";
 import Slider from "@/components/Slider";
 import { SliderData } from "@/components/SliderData";
 import Head from "next/head";
-import Image from "next/image";
 
 export default function Home() {
   return (
@@ -10,8 +10,9 @@ export default function Home() {
       <Head>
         <title>Misch Keyboard Builder</title>
       </Head>
-      <Hero heading='Keyboard Station' message='A place for all'/>
+      <Hero heading='Welcome to Misch Keyboard Builder' message='An exciting place for keyboard enthusiast'/>
       <Slider slides={SliderData} />
+      <Posts />
     </div>
     
   )
