@@ -8,7 +8,7 @@ import PostImg3 from '../public/redragon-tl84.jpg';
 const Posts = () => {
   return (
     <div>
-        <div id='posts' className="w-full py-[7rem] px-4 bg-white">
+        <div id='posts' className="w-full py-[7rem] px-4 bg-white justify-center">
         <h1 className='text-2xl font-bold text-center p-4'>Test</h1>
             <div className="max-w-[1240px] mx-auto grid md:grid-cols-3 gap-8">
                 <div className="w-full shadow-xl flex flex-col p-4 my-4 rounded-lg duration-300">

@@ -1,16 +1,16 @@
-import Catalog from '@/components/Catalog'
 import Footer from '@/components/Footer'
 import Hero from '@/components/Hero'
+import Mod from '@/components/Mod'
 import Sidebar from '@/components/Sidebar'
 import React from 'react'
 
-const shop = () => {
+const mod = () => {
   return (
     <div>
-        <Hero heading='Main Catalog' message='Nak letak ape eh'/>
+        <Hero heading='Sound Mods' message='Spend extra to make your keyboard pop, thock, clack, or whatever you like'/>
         <div className='flex row-span-2'>
           <Sidebar />
-          <Catalog />
+          <Mod />
 
         </div>
         <Footer />
@@ -18,4 +18,4 @@ const shop = () => {
   )
 }
 
-export default shop
+export default mod

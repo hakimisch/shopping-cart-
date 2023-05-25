@@ -1,16 +1,17 @@
-import Catalog from '@/components/Catalog'
+
 import Footer from '@/components/Footer'
 import Hero from '@/components/Hero'
 import Sidebar from '@/components/Sidebar'
+import Switches from '@/components/Switches'
 import React from 'react'
 
-const shop = () => {
+const switches = () => {
   return (
     <div>
-        <Hero heading='Main Catalog' message='Nak letak ape eh'/>
+        <Hero heading='Switches' message='Different switches for different sound and feel'/>
         <div className='flex row-span-2'>
           <Sidebar />
-          <Catalog />
+          <Switches />
 
         </div>
         <Footer />
@@ -18,4 +19,4 @@ const shop = () => {
   )
 }
 
-export default shop
+export default switches

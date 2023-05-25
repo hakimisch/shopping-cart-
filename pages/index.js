@@ -1,3 +1,4 @@
+import Footer from "@/components/Footer";
 import Hero from "@/components/Hero";
 import Posts from "@/components/Posts";
 import Slider from "@/components/Slider";
@@ -13,6 +14,7 @@ export default function Home() {
       <Hero heading='Welcome to Misch Keyboard Builder' message='An exciting place for keyboard enthusiast'/>
       <Slider slides={SliderData} />
       <Posts />
+      <Footer />
     </div>
     
   )
