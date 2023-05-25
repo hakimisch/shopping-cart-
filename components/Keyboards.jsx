@@ -7,7 +7,7 @@ import PostImg3 from '../public/redragon-tl84.jpg';
 const Keyboards = () => {
   return (
     <div className='max-w-[80%] flex '>
-        <div className='max-w-[80%] flex'>
+        <div className='flex'>
         <div className="max-w-[80%] mx-auto grid md:grid-cols-3 gap-8">
             <div className="w-full shadow-xl flex flex-col p-4 my-4 rounded-lg duration-300">
                 <PostsImg socialImg={PostImg1}/>
