@@ -40,10 +40,10 @@ const Navbar = () => {
                     <Link href='/#posts'>Gallery</Link>
                 </li>
                 <li className='py-4 px-6 hover:text-purple-500 duration-300'>
-                    <Link href='/shop'>Shop</Link>
+                    <Link href='/shop'>Build</Link>
                 </li>
                 <li className='py-4 px-6 hover:text-purple-500 duration-300'>
-                    <Link href='/contact'>Contact</Link>
+                    <Link href='/account'>Account</Link>
                 </li>
             </ul>
             {/*Mobile Button*/}
@@ -61,10 +61,10 @@ const Navbar = () => {
                     <Link href='/#posts'>Gallery</Link>
                 </li>
                 <li className='p-4 text-4xl hover:text-gray-500'>
-                    <Link href='/shop'>Work</Link>
+                    <Link href='/shop'>Builder</Link>
                 </li>
                 <li className='p-4 text-4xl hover:text-gray-500'>
-                    <Link href='/contact'>Contact</Link>
+                    <Link href='/account'>Account</Link>
                 </li>
             </ul>
             </div>
