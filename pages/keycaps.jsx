@@ -8,7 +8,7 @@ const keyboards = () => {
   return (
     <div>
         <Hero heading='Keycaps' message='Choose different keycap materials and profile!'/>
-        <div className='flex row-span-2'>
+        <div className='flex row-span-2 pt-24'>
           <Sidebar />
           <Keycaps />
 

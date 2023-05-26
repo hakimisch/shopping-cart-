@@ -8,7 +8,7 @@ const keyboards = () => {
   return (
     <div>
         <Hero heading='Keyboards' message='Choose keyboards with different case, plate material and colors!'/>
-        <div className='flex row-span-2'>
+        <div className='flex row-span-2 pt-24'>
           <Sidebar />
           <Keyboards />
 

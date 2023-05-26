@@ -8,7 +8,7 @@ const mod = () => {
   return (
     <div>
         <Hero heading='Sound Mods' message='Spend extra to make your keyboard pop, thock, clack, or whatever you like'/>
-        <div className='flex row-span-2'>
+        <div className='flex row-span-2 pt-24'>
           <Sidebar />
           <Mod />
 

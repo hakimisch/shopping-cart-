@@ -8,7 +8,7 @@ const shop = () => {
   return (
     <div>
         <Hero heading='Main Catalog' message='Nak letak ape eh'/>
-        <div className='flex row-span-2'>
+        <div className='flex row-span-2 pt-24'>
           <Sidebar />
           <Catalog />
 

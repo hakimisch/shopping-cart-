@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { SliderData } from './SliderData';
 import Image from 'next/image';
-import {FaArrowCircleLeft, FaArrowCircleRight} from 'react-icons/fa'
+import {FaAngleLeft, FaAngleRight} from 'react-icons/fa'
 
 const Slider = ({slides}) => {
     const [current, setCurrent] = useState(0)
@@ -33,9 +33,9 @@ const Slider = ({slides}) => {
                          ? 'opacity-[1] ease-in duration-1000' 
                          : 'opacity-0'}>
                             
-                                <FaArrowCircleLeft
+                                <FaAngleLeft
                                  onClick={nextSlide}
-                                 className='absolute top-[50%] left-[300px] text-white/70 cursor-pointer select-none z-[2]' size={50}/>
+                                 className='absolute top-[50%] sm:left-[300px] left-[10px] text-white/70 cursor-pointer select-none z-[2]' size={50}/>
                         {index === current && (
                             <Image src={slide.image} 
                             alt='/' 
@@ -45,9 +45,9 @@ const Slider = ({slides}) => {
                             unoptimized={true}
                             />
                         )}
-                        <FaArrowCircleRight
+                        <FaAngleRight
                          onClick={nextSlide}
-                         className='absolute top-[50%] right-[300px] text-white/70 cursor-pointer select-none z-[2]' size={50}/>
+                         className='absolute top-[50%] sm:right-[300px] right-[10px] text-white/70 cursor-pointer select-none z-[2]' size={50}/>
 
                     </div>
                 );

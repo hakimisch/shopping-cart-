@@ -9,7 +9,7 @@ const switches = () => {
   return (
     <div>
         <Hero heading='Switches' message='Different switches for different sound and feel'/>
-        <div className='flex row-span-2'>
+        <div className='flex row-span-2 pt-24'>
           <Sidebar />
           <Switches />
 
