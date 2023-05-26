@@ -36,7 +36,7 @@ const Sidebar = () => {
             </li>
         </ul>
         <div onClick={handleNav} className='block md:hidden pl-6'>
-                {nav ? <AiOutlineClose size={20}/> : <AiOutlineDoubleRight size={20}/>}
+                {nav ? <AiOutlineClose size={20}/> : <AiOutlineDoubleRight size={25}/>}
         </div>
         <div onClick={handleNav} className={nav ? 'fixed left-0 top-0 w-[60%] h-full border-r border-r-gray-900 bg-white ease-in-out duration-500'  : 'fixed left-[-100%] ease-in-out duration-500' }>
                 <ul className='uppercase p-4 mt-[24rem]'>
