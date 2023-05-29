@@ -11,32 +11,32 @@ const Keyboards = () => {
         <div className="max-w-[80%] mx-auto grid md:grid-cols-3 gap-8">
             <div className="w-full shadow-xl flex flex-col p-4 my-4 rounded-lg duration-300">
                 <PostsImg socialImg={PostImg1}/>
-                <h2 className="text-2xl font-bold text-center py-8" >Single User</h2>
-                <p className="text-center text-4xl font-bold" >$149</p>
+                <h2 className="text-2xl font-bold text-center py-8" >Ciy Tester 68 (65%)</h2>
+                <p className="text-center text-4xl font-bold" >$90</p>
                 <div className="text-center font-medium" >
-                    <p className="py-2 border-b mx-8 mt-8">500 GB Storage</p>
-                    <p className="py-2 border-b mx-8">1 Granted User</p>
-                    <p className="py-2 border-b mx-8">Send up to 2 GB</p>
+                    <p className="py-2 border-b mx-8 mt-8">Wireless</p>
+                    <p className="py-2 border-b mx-8">Plastic Case</p>
+                    <p className="py-2 border-b mx-8">Thocc</p>
                 </div>
             </div>
             <div className="w-full shadow-xl flex flex-col p-4 my-4 rounded-lg duration-300">
                 <PostsImg socialImg={PostImg2}/>
-                <h2 className="text-2xl font-bold text-center py-8" >Double User</h2>
-                <p className="text-center text-4xl font-bold" >$200</p>
+                <h2 className="text-2xl font-bold text-center py-8" >DK87 (75%)</h2>
+                <p className="text-center text-4xl font-bold" >$149</p>
                 <div className="text-center font-medium" >
-                    <p className="py-2 border-b mx-8 mt-8">1 TB Storage</p>
-                    <p className="py-2 border-b mx-8">2 Granted User</p>
-                    <p className="py-2 border-b mx-8">Send up to 4 GB</p>
+                    <p className="py-2 border-b mx-8 mt-8">Wireless</p>
+                    <p className="py-2 border-b mx-8">Aluminium Case</p>
+                    <p className="py-2 border-b mx-8">Creamy</p>
                 </div>
             </div>
             <div className="w-full shadow-xl flex flex-col p-4 my-4 rounded-lg duration-300">
                 <PostsImg socialImg={PostImg3}/>
-                <h2 className="text-2xl font-bold text-center py-8" >Triple User</h2>
-                <p className="text-center text-4xl font-bold" >$300</p>
+                <h2 className="text-2xl font-bold text-center py-8" >JamesDonkey A3 (75%)</h2>
+                <p className="text-center text-4xl font-bold" >$278</p>
                 <div className="text-center font-medium" >
-                    <p className="py-2 border-b mx-8 mt-8">3 TB Storage</p>
-                    <p className="py-2 border-b mx-8">3 Granted User</p>
-                    <p className="py-2 border-b mx-8">Send up to 8 GB</p>
+                    <p className="py-2 border-b mx-8 mt-8">Wireless</p>
+                    <p className="py-2 border-b mx-8">Aluminium Case</p>
+                    <p className="py-2 border-b mx-8">Clacky</p>
                 </div>
             </div>
             <div className="w-full shadow-xl flex flex-col p-4 my-4 rounded-lg duration-300">
