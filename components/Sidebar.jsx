@@ -40,11 +40,18 @@ const Sidebar = () => {
         </div>
         <div onClick={handleNav} className={nav ? 'fixed left-0 top-0 w-[60%] h-full border-r border-r-gray-900 bg-white ease-in-out duration-500'  : 'fixed left-[-100%] ease-in-out duration-500' }>
                 <ul className='uppercase p-4 mt-[24rem]'>
-                    <li className='p-4 border-b border-gray-400'>Home</li>
-                    <li className='p-4 border-b border-gray-400'>Company</li>
-                    <li className='p-4 border-b border-gray-400'>Resources</li>
-                    <li className='p-4 border-b border-gray-400'>About</li>
-                    <li className='p-4 border-b border-gray-400'>Contact</li>
+                    <li className='p-4 border-b border-gray-400'>
+                    <Link href="/keyboards" className='font-extrabold'>Keyboards</Link>
+                    </li>
+                    <li className='p-4 border-b border-gray-400'>
+                    <Link href="/keycaps" className='font-extrabold'>Keycaps</Link>
+                    </li>
+                    <li className='p-4 border-b border-gray-400'>
+                    <Link href="/switches" className='font-extrabold'>Switches</Link>
+                    </li>
+                    <li className='p-4 border-b border-gray-400'>
+                    <Link href="/mod" className='font-extrabold'>Sound Mods</Link>
+                    </li>
                     <li className='p-6 pt-8'><AiOutlineClose size={20}/></li>
                 </ul>
             </div>
